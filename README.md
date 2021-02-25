@@ -1,3 +1,18 @@
+## Example
+
+```bash
+curl http://localhost:3000/2020-05-10
+```
+
+Response : 
+```json
+{
+  "min": 6.02,
+  "max": 24.02,
+  "romanFormatDate": "MMXX.V.X"
+}
+```
+
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
