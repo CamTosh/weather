@@ -1,5 +1,5 @@
 export interface AppResponse {
   romanFormatDate: string;
-  min?: number;
-  max?: number;
+  min: number | null;
+  max: number | null;
 }

@@ -1,7 +1,6 @@
 import { Controller, HttpException, Get, Param } from '@nestjs/common';
 import { UtilsService } from './utils/utils.service';
 import { WeatherService } from './weather/weather.service';
-import { Weather } from './weather/interfaces/weather.interface';
 import { AppResponse } from './app.interface';
 
 @Controller()
